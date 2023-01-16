@@ -1,8 +1,10 @@
+import Navbarjs from "../About/Navbar";
 import style from "./style.css";
 const Work = () => {
   return (
     <div>
       <section class="footer" id="contact">
+        <Navbarjs />
         <div class="box-container">
           <div class="box">
             <h3>Portfolio</h3>

@@ -1,3 +1,4 @@
+import Navbarjs from "../About/Navbar";
 import Cardone from "./card";
 import skillcss from "./style.module.css";
 
@@ -119,9 +120,11 @@ const Skills = () => {
 
   return (
     <div className={skillcss.container}>
+      <Navbarjs className={skillcss.color} />
+
       <div>
         <h2 className={skillcss.text}>Skills</h2>
-        <div className="d-flex flex-wrap gap-5">
+        <div className={skillcss.mid}>
           {cards.map((card, index) => (
             <Cardone key={index} card={card} />
           ))}

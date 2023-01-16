@@ -1,7 +1,9 @@
+import Navbarjs from "../About/Navbar";
 import educationcss from "./style.css";
 const Education = () => {
   return (
     <div className={educationcss.container}>
+      <Navbarjs />
       <section class="education" id="education">
         <h1 class="heading">
           <i class="fas fa-graduation-cap"></i> My <span>Education</span>

@@ -1,3 +1,5 @@
+import Navbarjs from "../About/Navbar";
+
 const Exper = () => {
   const right = [
     {
@@ -15,15 +17,14 @@ const Exper = () => {
   ];
   return (
     <div>
+      <Navbarjs />
       <section class="experience" id="experience">
         <h2 class="heading">
           <i class="fas fa-briefcase"></i> Experience{" "}
         </h2>
         <div class="">
           <div class="">
-            <div class="">
-              <h2>{right.name}</h2>
-            </div>
+            <div class="">fdsfsdf</div>
             <div class="desc">
               <h3>{right.turul}</h3>
               <p>{right.ongoo}</p>

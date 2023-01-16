@@ -1,10 +1,12 @@
 import React from "react";
 import style from "./style.css";
 import { SocialIcon } from "react-social-icons";
+import Navbarjs from "./Navbar";
 
 const About = () => {
   return (
     <div className="container">
+      <Navbarjs />
       <section class="home" id="home">
         <div id="particles-js"></div>
 

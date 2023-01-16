@@ -13,20 +13,11 @@ html {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-body {
-  background: #f7f7f7;
-  font-family: "Poppins", sans-serif;
-}
 
 *::selection {
-  background: #2b3dda;
   color: #fff;
 }
 
-html {
-  font-size: 62.5%;
-  overflow-x: hidden;
-}
 html::-webkit-scrollbar {
   width: 0.8rem;
 }
@@ -37,21 +28,6 @@ html::-webkit-scrollbar-thumb {
   background: #420177;
 }
 
-.loader-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10000;
-  background: #e6eff1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-}
-.loader-container.fade-out {
-  top: -120%;
-}
 header {
   position: fixed;
   top: 0;
@@ -62,32 +38,26 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 1.7rem 10%;
-  height: 6.5rem;
-  background-color: #fff;
-  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
+  height: 0.5rem;
+  box-shadow: 0 1px 2px rgba(146, 161, 176, 0.3);
+  background-image: linear-gradient(to bottom right, #121c84, #8278da);
 }
-section {
-  min-height: 100vh;
-  padding: 2rem 9%;
-}
+
 .heading {
   font-size: 3.5rem;
   color: rgb(32, 32, 32);
   font-weight: 800;
   text-align: center;
+  margin-bottom: 100px;
 }
-.heading span {
-  color: rgb(115, 3, 167);
-}
+
 header .logo {
   font-size: 1.9rem;
   font-weight: 800;
   text-decoration: none;
   color: #0e2431;
 }
-header .logo i {
-  font-size: 2.2rem;
-}
+
 header .logo:hover {
   color: #fc8c05;
 }

@@ -7,6 +7,9 @@
   background: #e5ecfb;
   min-height: 80vh;
 }
+.heading {
+  margin-top: 60px;
+}
 .education .qoute {
   font-size: 1.5rem;
   text-align: center;

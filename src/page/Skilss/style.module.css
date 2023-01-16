@@ -5,17 +5,35 @@
   justify-content: center;
   align-items: center;
   background-color: black;
+  margin-top: 30px;
 }
 .wit {
-  width: 160px;
+  width: 270px;
+  height: 70px;
   justify-content: center;
   text-align: center;
+  color: rgb(184, 174, 174);
 }
 .witimg {
-  width: 30px;
+  width: 40px;
 }
 .text {
   color: white;
   text-align: center;
   justify-content: center;
+}
+.mid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 20px;
+  justify-content: center;
+}
+.borderr {
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+.color {
+  background-color: red;
 }

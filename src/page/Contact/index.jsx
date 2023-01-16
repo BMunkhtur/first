@@ -1,7 +1,9 @@
+import Navbarjs from "../About/Navbar";
 import style from "./style.css";
 const Contact = () => {
   return (
     <div>
+      <Navbarjs />
       <section class="about" id="about">
         <h2 class="heading">
           <i class="fas fa-user-alt"></i> About <span>Me</span>

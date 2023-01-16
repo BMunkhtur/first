@@ -1,20 +1,8 @@
 import React from "react";
 import style from "./style.css";
 import { SocialIcon } from "react-social-icons";
-import { useCallback } from "react";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
 
 const About = () => {
-  const particlesInit = useCallback(async (engine) => {
-    console.log(engine);
-
-    await loadFull(engine);
-  }, []);
-
-  const particlesLoaded = useCallback(async (container) => {
-    await console.log(container);
-  }, []);
   return (
     <div className="container">
       <section class="home" id="home">

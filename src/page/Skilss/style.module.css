@@ -1,0 +1,21 @@
+.container {
+  background-color: dark;
+  max-width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.wit {
+  width: 160px;
+  justify-content: center;
+  text-align: center;
+}
+.witimg {
+  width: 30px;
+}
+.text {
+  color: white;
+  text-align: center;
+  justify-content: center;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./style.css";
-
+import { SocialIcon } from "react-social-icons";
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";

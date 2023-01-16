@@ -1,5 +1,5 @@
 import Navbarjs from "../About/Navbar";
-import style from "./style.css";
+import stylefour from "./stylefour.css";
 const Work = () => {
   return (
     <div>

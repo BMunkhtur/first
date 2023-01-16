@@ -1,5 +1,5 @@
 import Navbarjs from "../About/Navbar";
-import style from "./style.css";
+import styletwo from "./styletwo.css";
 const Contact = () => {
   return (
     <div>

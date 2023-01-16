@@ -1,8 +1,8 @@
 import Navbarjs from "../About/Navbar";
-import educationcss from "./style.css";
+import stylethree from "./stylethree.css";
 const Education = () => {
   return (
-    <div className={educationcss.container}>
+    <div>
       <Navbarjs />
       <section class="education" id="education">
         <h1 class="heading">

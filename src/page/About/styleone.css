@@ -1,7 +1,6 @@
 .container {
   background-color: azure;
-  max-width: 1280px;
-  width: 100% !important;
+  max-width: 100% !important;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -23,13 +22,7 @@
   min-height: 100vh;
   align-items: center;
 }
-.home #particles-js {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
+
 .home::before {
   content: "";
   position: absolute;
@@ -47,30 +40,37 @@
   flex: 1 1 40rem;
   z-index: 100;
 }
-img {
-  z-index: 100;
-}
-.home .image img {
+
+.image img {
   width: 70%;
   margin-left: 6rem;
   border-radius: 50%;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 8px rgba(189, 181, 181, 0.3);
   cursor: pointer;
+  background-image: linear-gradient(
+    to right,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    violet
+  );
 }
-.home .image img:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+.image img:hover {
+  box-shadow: 0 5px 15px rgba(251, 250, 250, 0.5);
 }
-.home .content h2 {
+.content h2 {
   font-size: 5rem;
   font-weight: 800;
   color: #002057;
 }
-.home .content h2 span {
+.content h2 span {
   font-size: 5rem;
   font-weight: 800;
   color: #ff7b00;
 }
-.home .content p {
+.content p {
   font-size: 2.5rem;
   color: #000;
   font-weight: 600;
@@ -110,7 +110,7 @@ img {
 .home .btn:hover i {
   transform: translateX(5px);
 }
-/* social icons start */
+
 .socials {
   position: relative;
   margin-top: 9rem;
@@ -160,9 +160,7 @@ img {
 .social-icons a.instagram:hover {
   background-color: #ee00da;
 }
-/* social icons end */
 
-/* hero media queries starts*/
 @media (max-width: 450px) {
   .home .btn {
     margin: 4rem 0;
@@ -181,5 +179,5 @@ img {
   }
 }
 #tsparticles {
-  z-index: -1;
+  z-index: -100;
 }

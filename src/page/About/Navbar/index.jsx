@@ -1,4 +1,4 @@
-import navbarcss from "./style.css";
+import stylefive from "./stylefive.css";
 const Navbarjs = () => {
   return (
     <div className="color">

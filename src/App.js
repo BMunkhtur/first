@@ -1,5 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
+
 import About from "./page/About";
 import Contact from "./page/Contact";
 import Education from "./page/Education";

@@ -1,10 +1,6 @@
 import React from "react";
 import style from "./style.css";
 
-import { useCallback } from "react";
-
-import { loadFull } from "tsparticles";
-
 const About = () => {
   return (
     <div className="container">

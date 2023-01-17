@@ -2,6 +2,10 @@
   background-color: gray;
   max-width: 1280px;
   height: 100vh;
+  z-index: 1000px;
+}
+.footer h3 {
+  margin-top: 15px;
 }
 .footer {
   min-height: auto;

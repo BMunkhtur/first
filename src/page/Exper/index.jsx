@@ -17,7 +17,6 @@ const Exper = () => {
   ];
   return (
     <div>
-      <Navbarjs />
       <section class="experience" id="experience">
         <h2 class="heading">
           <i class="fas fa-briefcase"></i> Experience{" "}

@@ -131,7 +131,6 @@ const Skills = () => {
 
   return (
     <div className={skillcss.container}>
-      <Navbarjs className={skillcss.color} />
       <div>
         <h2 className={skillcss.text}>Skills</h2>
         <div className={skillcss.mid}>

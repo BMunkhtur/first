@@ -17,15 +17,9 @@ const About = () => {
   }, []);
   return (
     <div className="">
-      <Navbarjs />
       <Particles
         id="tsparticles"
         options={{
-          background: {
-            color: {
-              value: "#0000",
-            },
-          },
           fpsLimit: 60,
           particles: {
             number: {
@@ -148,11 +142,11 @@ const About = () => {
       <div className="container">
         <section class="home detail" id="home">
           <div class="content">
-            <h2>
+            <h2 style={{ color: "#007FFF" }}>
               Hi There,
               <br /> I'm Munkhtur <span>Bayarsaikhan</span>
             </h2>
-            <h1>
+            <h1 style={{ color: "#ffff" }}>
               I am the{" "}
               <span style={{ color: "#007FFF" }}>
                 <Typewriter

@@ -12,16 +12,17 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
+      <Navbarjs />
       <Routes>
         <Route path="/" element={<About />} />
-        <Route exact path="/Navbarjs" element={<Navbarjs />} />
+        {/* <Route exact path="/Navbarjs" element={<Navbarjs />} /> */}
         <Route exact path="/About" element={<About />} />
         <Route exact path="/Contact" element={<Contact />} />
         <Route exact path="/Education" element={<Education />} />
         <Route exact path="/Exper" element={<Exper />} />
         <Route exact path="/Skills" element={<Skills />} />
-        <Route exact path="/Work" element={<Work />} />
       </Routes>
+      <Work />
     </div>
   );
 }

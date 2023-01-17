@@ -4,7 +4,6 @@ const Work = () => {
   return (
     <div>
       <section class="footer" id="contact">
-        <Navbarjs />
         <div class="box-container">
           <div class="box">
             <h3>Portfolio</h3>
@@ -40,25 +39,25 @@ const Work = () => {
             <h3>contact info</h3>
 
             <a
-              href="https://www.linkedin.com/in/jigar-sable"
+              href="https://www.linkedin.com/in/Munkhtur"
               class="fab fa-linkedin"
               aria-label="LinkedIn"
               target="_blank"
             ></a>
             <a
-              href="https://github.com/jigar-sable"
+              href="https://github.com/Bmunkhtur"
               class="fab fa-github"
               aria-label="GitHub"
               target="_blank"
             ></a>
             <a
-              href="mailto:jigarsable21@gmail.com"
+              href="AzureMunkhtur@gmail.com"
               class="fas fa-envelope"
               aria-label="Mail"
               target="_blank"
             ></a>
             <a
-              href="https://twitter.com/jigar_sable"
+              href="https://twitter.com/Bmunkhtur"
               class="fab fa-twitter"
               aria-label="Twitter"
               target="_blank"

@@ -3,7 +3,6 @@ import styletwo from "./styletwo.css";
 const Contact = () => {
   return (
     <div>
-      <Navbarjs />
       <section class="about" id="about">
         <h2 class="heading">
           <i class="fas fa-user-alt"></i> About <span>Me</span>

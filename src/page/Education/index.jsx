@@ -3,7 +3,6 @@ import stylethree from "./stylethree.css";
 const Education = () => {
   return (
     <div>
-      <Navbarjs />
       <section class="education" id="education">
         <h1 class="heading">
           <i class="fas fa-graduation-cap"></i> My <span>Education</span>

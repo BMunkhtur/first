@@ -302,10 +302,14 @@ function App() {
           <div class="carousel owl-carousel">
             <div class="card">
               <div class="box">
-                <img src="" alt="img" />
-                <div class="text">Lorem</div>
-                <p>lorem lorem lorem </p>
-                <a href="https://" class="project" target="_blank">
+                <img src="../pic/zepp.png" alt="img" />
+                <div class="text">Sad zeppelins</div>
+                <p>best figma course</p>
+                <a
+                  href="https://react-zepplins.vercel.app/"
+                  class="project"
+                  target="_blank"
+                >
                   View Project
                 </a>
               </div>

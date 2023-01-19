@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Parti from "./pages/particles";
+import { Typewriter } from "react-simple-typewriter";
 
 function App() {
   return (
@@ -55,7 +56,19 @@ function App() {
             <div class="text-1">Hello, my name is</div>
             <div class="text-2">Bayarsaikhan Munkhtur</div>
             <div class="text-3">
-              And I'm a <span class="typing"></span>
+              <h1>
+                I am the{" "}
+                <span style={{ color: "#007FFF" }}>
+                  <Typewriter
+                    words={[
+                      "React Developer",
+                      "UI Designer",
+                      "Software Engineer",
+                    ]}
+                    loop={false}
+                  />
+                </span>
+              </h1>
             </div>
             <div class="classbox">
               <a href="#">Hire me</a>
@@ -63,35 +76,58 @@ function App() {
           </div>
         </div>
       </section>
-      <section class="about" id="about">
-        <div class="max-width">
-          <h2 class="title">About me</h2>
-          <div class="about-content">
-            <div class="column left">
-              <img src="/pic/aaaa.jpg" alt="img" />
-            </div>
-            <div class="column right">
-              <div class="text">
-                I'm Munkhtur. Pun and I'm a <span class="typing-2"></span>
+
+      <article class="about py-5 about" id="about">
+        <div class="row justify-content-center d-none d-sm-flex">
+          <div class="col-12 col-xl-9 align-self-center px-3 px-xl-0">
+            <div class="card">
+              <div class="card_content">
+                <div class="card_front">
+                  <h3 class="card_title mb-0">About me</h3>
+                </div>
+                <div class="card_back align-items-center">
+                  <div class="d-flex align-items-center">
+                    <div class="about-content">
+                      <div class="column left">
+                        <img src="/pic/aaaa.jpg" alt="img" />
+                      </div>
+                      <div class="column right">
+                        <div class="text">
+                          I'm Munkhtur.
+                          <span class="typing-2"></span>
+                        </div>
+                        <p>
+                          Lorem, ipsum dolor sit amet consectetur adipisicing
+                          elit. Eius veniam quas quam ad recusandae ipsam
+                          consequuntur vitae magni! Laborum consequatur
+                          quibusdam sequi veniam ipsam accusamus hic
+                          dignissimos, deserunt veritatis autem Lorem, ipsum
+                          dolor sit amet consectetur adipisicing elit. Eius
+                          veniam quas quam ad recusandae ipsam consequuntur
+                        </p>
+                        <a href="cv/sample.pdf" download="cv/sample.pdf">
+                          Download CV
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <p>
-                {" "}
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
-                veniam quas quam ad recusandae ipsam consequuntur vitae magni!
-                Laborum consequatur quibusdam sequi veniam ipsam accusamus hic
-                dignissimos, deserunt veritatis autem Lorem, ipsum dolor sit
-                amet consectetur adipisicing elit. Eius veniam quas quam ad
-                recusandae ipsam consequuntur vitae magni! Laborum consequatur
-                quibusdam sequi veniam ipsam accusamus hic dignissimos, deserunt
-                veritatis autem
-              </p>
-              <a href="cv/sample.pdf" download="cv/sample.pdf">
-                Download CV
-              </a>
             </div>
           </div>
         </div>
-      </section>
+        <div class="row d-sm-none small-version">
+          <div class="col-12 px-5">
+            <h3>About me</h3>
+            <p>
+              Lorem ipsum dolor sit amet, ius et vidisse aliquip, viderer
+              invenire duo ad. Alii salutandi nam te. Inani semper integre ex
+              eam. Usu no reque copiosae. Id ornatus consetetur his, eum zril
+              quaerendum ut, an dico rebum definitionem duo.
+            </p>
+          </div>
+        </div>
+      </article>
 
       <section class="services" id="services">
         <div class="max-width">
@@ -173,7 +209,6 @@ function App() {
           </div>
         </div>
       </section>
-
       <section class="skills" id="skills">
         <div class="max-width">
           <h2 class="title">My skills</h2>
@@ -252,7 +287,7 @@ function App() {
               </div>
               <div class="bars">
                 <div class="info">
-                  <span>Argis</span>
+                  <span>Arcgis</span>
                   <span>90%</span>
                 </div>
                 <div class="line html"></div>
@@ -261,7 +296,6 @@ function App() {
           </div>
         </div>
       </section>
-
       <section class="teams" id="teams">
         <div class="max-width">
           <h2 class="title">My Projects</h2>
@@ -271,11 +305,7 @@ function App() {
                 <img src="" alt="img" />
                 <div class="text">Lorem</div>
                 <p>lorem lorem lorem </p>
-                <a
-                  href="https://apps.pfcrestaurant.com.np/"
-                  class="project"
-                  target="_blank"
-                >
+                <a href="https://" class="project" target="_blank">
                   View Project
                 </a>
               </div>
@@ -285,11 +315,7 @@ function App() {
                 <img src="" alt="img" />
                 <div class="text">Lorem</div>
                 <p>lorem lorem lorem </p>
-                <a
-                  href="https://apps.pfcrestaurant.com.np/"
-                  class="project"
-                  target="_blank"
-                >
+                <a href="https://" class="project" target="_blank">
                   View Project
                 </a>
               </div>
@@ -299,11 +325,7 @@ function App() {
                 <img src="" alt="img" />
                 <div class="text">Lorem</div>
                 <p>lorem lorem lorem </p>
-                <a
-                  href="https://apps.pfcrestaurant.com.np/"
-                  class="project"
-                  target="_blank"
-                >
+                <a href="https://" class="project" target="_blank">
                   View Project
                 </a>
               </div>
@@ -313,11 +335,7 @@ function App() {
                 <img src="" alt="img" />
                 <div class="text">Lorem</div>
                 <p>lorem lorem lorem </p>
-                <a
-                  href="https://apps.pfcrestaurant.com.np/"
-                  class="project"
-                  target="_blank"
-                >
+                <a href="https://" class="project" target="_blank">
                   View Project
                 </a>
               </div>
@@ -325,7 +343,6 @@ function App() {
           </div>
         </div>
       </section>
-
       <section class="contact" id="contact">
         <div class="max-width">
           <h2 class="title">Contact me</h2>
@@ -392,7 +409,6 @@ function App() {
           </div>
         </div>
       </section>
-
       <footer>
         <div class="waves">
           <div class="wave" id="wave1"></div>
@@ -406,7 +422,7 @@ function App() {
 
         <p>
           &copy; 2023{" "}
-          <a href="https://hembdrpun.com.np/" target="_blank">
+          <a href="https://github.com/BMunkhtur" target="_blank">
             Munkhtur
           </a>{" "}
           | All Rights Reserved |

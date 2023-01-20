@@ -2,54 +2,12 @@ import logo from "./logo.svg";
 import "./App.css";
 import Parti from "./pages/particles";
 import { Typewriter } from "react-simple-typewriter";
+import Navbar from "./pages/Navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <nav class="lil">
-        <div class="max-width">
-          <div class="logo">
-            <a href="#">
-              Munkhtur<span>Br.</span>
-            </a>
-          </div>
-          <ul class="menu">
-            <li>
-              <a href="#home" class="menu-btn">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="#about" class="menu-btn">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#services" class="menu-btn">
-                Services
-              </a>
-            </li>
-            <li>
-              <a href="#skills" class="menu-btn">
-                Skills
-              </a>
-            </li>
-            <li>
-              <a href="#teams" class="menu-btn">
-                My project
-              </a>
-            </li>
-            <li>
-              <a href="#contact" class="menu-btn">
-                Contact
-              </a>
-            </li>
-          </ul>
-          <div class="menu-btn">
-            <i class="fas fa-bars"></i>
-          </div>
-        </div>
-      </nav>
+      <Navbar />
       <section class="home" id="home">
         <div class="max-width">
           <div class="home-content">
@@ -76,7 +34,6 @@ function App() {
           </div>
         </div>
       </section>
-
       <article class="about py-5 about" id="about">
         <div class="row justify-content-center d-none d-sm-flex">
           <div class="col-12 col-xl-9 align-self-center px-3 px-xl-0">
@@ -128,7 +85,6 @@ function App() {
           </div>
         </div>
       </article>
-
       <section class="services" id="services">
         <div class="max-width">
           <h2 class="title">My services</h2>
@@ -316,30 +272,42 @@ function App() {
             </div>
             <div class="card">
               <div class="box">
-                <img src="" alt="img" />
+                <img src="../pic/Election.png" alt="img" />
                 <div class="text">Lorem</div>
                 <p>lorem lorem lorem </p>
-                <a href="https://" class="project" target="_blank">
+                <a
+                  href="https://ecommercefigma.vercel.app/"
+                  class="project"
+                  target="_blank"
+                >
                   View Project
                 </a>
               </div>
             </div>
             <div class="card">
               <div class="box">
-                <img src="" alt="img" />
+                <img src="../pic/sing.png" alt="img" />
                 <div class="text">Lorem</div>
                 <p>lorem lorem lorem </p>
-                <a href="https://" class="project" target="_blank">
+                <a
+                  href="https://bmunkhtur.github.io/lesson/Bootstrap/index"
+                  class="project"
+                  target="_blank"
+                >
                   View Project
                 </a>
               </div>
             </div>
             <div class="card">
               <div class="box">
-                <img src="" alt="img" />
+                <img src="../pic/zua.png" alt="img" />
                 <div class="text">Lorem</div>
                 <p>lorem lorem lorem </p>
-                <a href="https://" class="project" target="_blank">
+                <a
+                  href="https://bmunkhtur.github.io/lesson/From/index"
+                  class="project"
+                  target="_blank"
+                >
                   View Project
                 </a>
               </div>

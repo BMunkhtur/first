@@ -312,6 +312,20 @@ function App() {
                 </a>
               </div>
             </div>
+            <div class="card">
+              <div class="box">
+                <img src="../pic/site.png" alt="img" />
+                <div class="text">Lorem</div>
+                <p>lorem lorem lorem </p>
+                <a
+                  href="https://travel-blush-six.vercel.app/"
+                  class="project"
+                  target="_blank"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
